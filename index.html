@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <img class="hero" src="./images/hero.jpg" alt="hero">
+        <div class="nav-bar">
+            <div class="container">
+                <div class="site-branding">
+                    <a href="index.html">
+                        <img src="./images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <ul class="site-navigation">
+                    <li class="current-menu-item"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="call-btn gradient-bg">
+                        <a href="#">
+                            <img src="./images/call.png"> +34 586 7788892
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="hamburger-menu" onclick="bar()">
+                    <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80"
+                        onclick="this.classList.toggle('active')">
+                        <path class="line top"
+                            d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                        <path class="line middle" d="m 30,50 h 40" />
+                        <path class="line bottom"
+                            d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="hero-content-wrap">
+            <div class="container">
+                <div class="left-hero">
+                    <div>
+                        <header class="entry-header">
+                            <h1>The Best <br>Medical Services</h1>
+                        </header>
+                        <div class="entry-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem
+                                maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.
+                                Suspendisse cursus faucibus finibus.</p>
+                        </div>
+                        <footer class="call-btn entry-footer">
+                            <a href="#" class="gradient-bg">Read More</a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+
+    </section>
+
+    <script>
+        let ele = document.getElementsByClassName('site-navigation')[0];
+        function bar() {
+            ele.classList.toggle('open');
+        }
+    </script>
+
+</body>
+
+</html>
