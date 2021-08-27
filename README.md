@@ -1,2 +1,2 @@
 # sample_Medart
-responsive medart
+responsive navigation with hero image
