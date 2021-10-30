@@ -180,6 +180,9 @@ a:hover, a:active {
         flex-direction: column;
         transition: 300ms;
     }
+    .site-navigation li {
+        margin-left: 0;
+    }
     .site-navigation li:not(:last-child) {
         padding: 1em;
     }
